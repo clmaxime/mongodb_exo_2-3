@@ -1,0 +1,326 @@
+[{
+  "_id": {
+    "$oid": "67c59435052a289257f82f58"
+  },
+  "nom": "article8",
+  "description": "article de salle de jeu",
+  "prix": 25,
+  "stock": 20,
+  "categorie": "salle de jeu",
+  "sous-categorie": "accessoires",
+  "caracteristiques-techniques": {
+    "poids": 300,
+    "couleur": "bleu"
+  },
+  "commentaires-avis": [
+    {
+      "comment": "très pratique",
+      "avis": 5
+    },
+    {
+      "comment": "bon produit",
+      "avis": 4
+    },
+    {
+      "comment": "excellent article",
+      "avis": "5"
+    }
+  ],
+  "tags": [
+    "salle de jeu",
+    "accessoires",
+    "pratique"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f59"
+  },
+  "nom": "article1",
+  "description": "article de décoration",
+  "prix": 20,
+  "stock": 15,
+  "categorie": "maison",
+  "sous-categorie": "decoration",
+  "caracteristiques-techniques": {
+    "poids": 1100,
+    "couleur": "noir"
+  },
+  "commentaires": [
+    {
+      "comment": "commentaire du client",
+      "avis": 4
+    },
+    {
+      "comment": "très bon article",
+      "avis": 5
+    }
+  ],
+  "tags": [
+    "maison",
+    "decoration"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5a"
+  },
+  "nom": "article2",
+  "description": "article de cuisine",
+  "prix": 35.5,
+  "stock": 25,
+  "categorie": "cuisine",
+  "sous-categorie": "ustensiles",
+  "caracteristiques-techniques": {
+    "poids": 500,
+    "couleur": "argenté"
+  },
+  "commentaires": [
+    {
+      "comment": "pratique et utile",
+      "avis": 5
+    },
+    {
+      "comment": "bon rapport qualité/prix",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "cuisine",
+    "ustensiles",
+    "nouveau tag"
+  ],
+  "promotion": true
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5b"
+  },
+  "nom": "article3",
+  "description": "article de jardinage",
+  "prix": 15.75,
+  "stock": 30,
+  "categorie": "jardin",
+  "sous-categorie": "outils",
+  "caracteristiques-techniques": {
+    "poids": 800,
+    "couleur": "vert"
+  },
+  "commentaires": [
+    {
+      "comment": "très utile pour le jardin",
+      "avis": 5
+    },
+    {
+      "comment": "bonne qualité",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "jardin",
+    "outils"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5c"
+  },
+  "nom": "article4",
+  "description": "article de bureau",
+  "prix": 50.99,
+  "stock": 10,
+  "categorie": "bureau",
+  "sous-categorie": "meubles",
+  "caracteristiques-techniques": {
+    "poids": 7000,
+    "couleur": "blanc"
+  },
+  "commentaires": [
+    {
+      "comment": "parfait pour le bureau",
+      "avis": 5
+    },
+    {
+      "comment": "très élégant",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "bureau",
+    "meubles"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5d"
+  },
+  "nom": "article5",
+  "description": "article de salle de bain",
+  "prix": 25,
+  "stock": 20,
+  "categorie": "salle de bain",
+  "sous-categorie": "accessoires",
+  "caracteristiques-techniques": {
+    "poids": 300,
+    "couleur": "bleu"
+  },
+  "commentaires": [
+    {
+      "comment": "très pratique",
+      "avis": 5
+    },
+    {
+      "comment": "bon produit",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "salle de bain",
+    "accessoires"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5e"
+  },
+  "nom": "article6",
+  "description": "article de sport",
+  "prix": 40,
+  "stock": 15,
+  "categorie": "sport",
+  "sous-categorie": "équipement",
+  "caracteristiques-techniques": {
+    "poids": 1500,
+    "couleur": "rouge"
+  },
+  "commentaires": [
+    {
+      "comment": "parfait pour les sportifs",
+      "avis": 5
+    },
+    {
+      "comment": "bonne qualité",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "sport",
+    "équipement"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f5f"
+  },
+  "nom": "article7",
+  "description": "article de salon",
+  "prix": 60,
+  "stock": 10,
+  "categorie": "salon",
+  "sous-categorie": "mobilier",
+  "caracteristiques-techniques": {
+    "poids": 9000,
+    "couleur": "gris"
+  },
+  "commentaires": [
+    {
+      "comment": "très confortable",
+      "avis": 5
+    },
+    {
+      "comment": "élégant et moderne",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "salon",
+    "mobilier"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f60"
+  },
+  "nom": "article8",
+  "description": "article de chambre",
+  "prix": 80,
+  "stock": 4,
+  "categorie": "chambre",
+  "sous-categorie": "literie",
+  "caracteristiques-techniques": {
+    "poids": 5000,
+    "couleur": "blanc"
+  },
+  "commentaires": [
+    {
+      "comment": "très confortable",
+      "avis": 5
+    },
+    {
+      "comment": "bonne qualité",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "chambre",
+    "literie"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f61"
+  },
+  "nom": "article9",
+  "description": "article de loisir",
+  "prix": 30,
+  "stock": 15,
+  "categorie": "loisir",
+  "sous-categorie": "jeux",
+  "caracteristiques-techniques": {
+    "poids": 200,
+    "couleur": "multicolore"
+  },
+  "commentaires": [
+    {
+      "comment": "super pour les enfants",
+      "avis": 5
+    },
+    {
+      "comment": "très amusant",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "loisir",
+    "jeux"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c5a8be052a289257f82f62"
+  },
+  "nom": "article10",
+  "description": "article de voyage",
+  "prix": 73.5,
+  "stock": 8,
+  "categorie": "voyage",
+  "sous-categorie": "bagagerie",
+  "caracteristiques-techniques": {
+    "poids": 2500,
+    "couleur": "noir"
+  },
+  "commentaires": [
+    {
+      "comment": "parfait pour voyager",
+      "avis": 5
+    },
+    {
+      "comment": "robuste et pratique",
+      "avis": 4
+    }
+  ],
+  "tags": [
+    "voyage",
+    "bagagerie"
+  ]
+}]

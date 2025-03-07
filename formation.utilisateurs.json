@@ -1,0 +1,329 @@
+[{
+  "_id": {
+    "$oid": "67c58bc5e0f4e94f1ee2816c"
+  },
+  "nom": "Dupont",
+  "prenom": "Jean",
+  "email": "jean.dupont@example.com",
+  "dateNaissance": {
+    "$date": "1985-07-15T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "123 Avenue de la République",
+    "ville": "Paris",
+    "codePostal": "75011",
+    "pays": "France"
+  },
+  "telephone": "+33612345678",
+  "role": "client",
+  "dateInscription": {
+    "$date": "2025-03-03T11:00:21.172Z"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": {
+      "email": true,
+      "sms": false
+    },
+    "theme": "dark"
+  },
+  "profil": {
+    "bio": "Passionné de technologie et de sports de plein air",
+    "photo": "https://exemple.com/photos/jean-dupont.jpg",
+    "reseauxSociaux": {
+      "linkedin": "jdupont",
+      "twitter": "@jdupont"
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2025-03-03T11:00:21.172Z"
+  },
+  "actif": true,
+  "commandes": [
+    {
+      "id": {
+        "$oid": "60d21b4667d0d8992e610c85"
+      },
+      "date": {
+        "$date": "2023-01-15T00:00:00.000Z"
+      },
+      "montant": 89.99
+    },
+    {
+      "id": {
+        "$oid": "60d21b4667d0d8992e610c86"
+      },
+      "date": {
+        "$date": "2023-02-20T00:00:00.000Z"
+      },
+      "montant": 129.5
+    }
+  ],
+  "tags": [
+    "premium",
+    "fidele",
+    "early-adopter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c58bd0e0f4e94f1ee28176"
+  },
+  "nom": "Martin",
+  "prenom": "Sophie",
+  "email": "sophie.martin@example.com",
+  "dateNaissance": {
+    "$date": "1990-03-22T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "45 Rue du Commerce",
+    "ville": "Lyon",
+    "codePostal": "69002",
+    "pays": "France"
+  },
+  "telephone": "+33678901234",
+  "role": "client",
+  "dateInscription": {
+    "$date": "2022-05-12T00:00:00.000Z"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": {
+      "email": true,
+      "sms": true
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2023-02-28T00:00:00.000Z"
+  },
+  "actif": true,
+  "commandes": [
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee2816e"
+      },
+      "date": {
+        "$date": "2022-06-10T00:00:00.000Z"
+      },
+      "montant": 145.8
+    },
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee2816f"
+      },
+      "date": {
+        "$date": "2022-09-18T00:00:00.000Z"
+      },
+      "montant": 67.5
+    },
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28170"
+      },
+      "date": {
+        "$date": "2023-01-03T00:00:00.000Z"
+      },
+      "montant": 210.25
+    }
+  ],
+  "tags": [
+    "premium",
+    "fidele"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c58bd0e0f4e94f1ee28177"
+  },
+  "nom": "Dubois",
+  "prenom": "Thomas",
+  "email": "thomas.dubois@example.com",
+  "dateNaissance": {
+    "$date": "1988-11-05T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "8 Boulevard des Capucines",
+    "ville": "Marseille",
+    "codePostal": "13001",
+    "pays": "France"
+  },
+  "telephone": "+33612345678",
+  "role": "client",
+  "dateInscription": {
+    "$date": "2022-02-18T00:00:00.000Z"
+  },
+  "preferences": {
+    "newsletter": false,
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "actif": true,
+  "commandes": [
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28171"
+      },
+      "date": {
+        "$date": "2022-03-20T00:00:00.000Z"
+      },
+      "montant": 89.99
+    }
+  ],
+  "tags": [
+    "nouveauclient"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c58bd0e0f4e94f1ee28178"
+  },
+  "nom": "Petit",
+  "prenom": "Marie",
+  "email": "marie.petit@example.com",
+  "dateNaissance": {
+    "$date": "1995-07-30T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "17 Avenue Foch",
+    "ville": "Lille",
+    "codePostal": "59000",
+    "pays": "France"
+  },
+  "telephone": "+33698765432",
+  "role": "client",
+  "dateInscription": {
+    "$date": "2021-11-25T00:00:00.000Z"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": {
+      "email": true,
+      "sms": true
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2023-02-15T00:00:00.000Z"
+  },
+  "actif": true,
+  "commandes": [
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28172"
+      },
+      "date": {
+        "$date": "2021-12-10T00:00:00.000Z"
+      },
+      "montant": 65.3
+    },
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28173"
+      },
+      "date": {
+        "$date": "2022-04-22T00:00:00.000Z"
+      },
+      "montant": 120
+    },
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28174"
+      },
+      "date": {
+        "$date": "2022-08-14T00:00:00.000Z"
+      },
+      "montant": 43.75
+    },
+    {
+      "id": {
+        "$oid": "67c58bd0e0f4e94f1ee28175"
+      },
+      "date": {
+        "$date": "2022-12-23T00:00:00.000Z"
+      },
+      "montant": 178.9
+    }
+  ],
+  "tags": [
+    "premium",
+    "fidele"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c58bd0e0f4e94f1ee28179"
+  },
+  "nom": "Roux",
+  "prenom": "Pierre",
+  "email": "pierre.roux@example.com",
+  "dateNaissance": {
+    "$date": "1976-02-10T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "29 Rue de la Paix",
+    "ville": "Bordeaux",
+    "codePostal": "33000",
+    "pays": "France"
+  },
+  "telephone": "+33654321098",
+  "role": "admin",
+  "dateInscription": {
+    "$date": "2020-09-05T00:00:00.000Z"
+  },
+  "preferences": {
+    "newsletter": false,
+    "notifications": {
+      "email": true,
+      "sms": false
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2023-03-02T00:00:00.000Z"
+  },
+  "actif": true,
+  "tags": [
+    "staff",
+    "admin"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c58bd0e0f4e94f1ee2817a"
+  },
+  "nom": "Moreau",
+  "prenom": "Claire",
+  "email": "claire.moreau@example.com",
+  "dateNaissance": {
+    "$date": "1992-05-18T00:00:00.000Z"
+  },
+  "adresse": {
+    "rue": "12 Rue Victor Hugo",
+    "ville": "Toulouse",
+    "codePostal": "31000",
+    "pays": "France"
+  },
+  "telephone": "+33687654321",
+  "role": "client",
+  "dateInscription": {
+    "$date": "2022-07-12T00:00:00.000Z"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": {
+      "email": false,
+      "sms": true
+    }
+  },
+  "derniereConnexion": {
+    "$date": "2023-02-10T00:00:00.000Z"
+  },
+  "actif": false,
+  "commandes": [],
+  "tags": [
+    "inactif"
+  ]
+}]
